@@ -24,6 +24,7 @@ To analyze and secure network infrastructure by leveraging advanced cybersecurit
 -  Domaintools
 -  Cyberchef
 -  Virus Total
+-  Malware Bazaar
 
 
 ## Steps
@@ -37,4 +38,12 @@ To analyze and secure network infrastructure by leveraging advanced cybersecurit
 *Ref 1.6:![Screenshot 2025-01-27 121635](https://github.com/user-attachments/assets/07833eb8-2dca-4230-8f3b-6eea2048403f) ![Screenshot 2025-01-27 121814](https://github.com/user-attachments/assets/a8f5e42e-ea09-43f3-aa16-94b3cd44fde5)
 *Ref 1.7:![Screenshot 2025-01-27 122216](https://github.com/user-attachments/assets/275a9f3a-43f9-4e56-8465-08d303b5be1e)
 
-2. 
+2. Next I loaded the PCAP file into Wire Shark for a deeper packet analysis. First I utilized the statistics feature to take note of the highest amount of traffic between the host endpoint and the malicious ip address. I then found the packet that contained the malicious executable and followed the HTTP stream. I then took note of the response from the server which started with MZ and stated "this program cannot me run in DOS mode" indicating the end user downloaded an executable file from the server. I then exported the malicious file .audiodg.exe to my desktop and obtained the SHA256 hash so I could run it through the Malware Bazaar database and find out more about this specific malware.  
+
+*Ref 2.1:![Screenshot 2025-01-27 175005](https://github.com/user-attachments/assets/96cf605d-ab45-42ff-bdbe-3b664259bf64)
+*Ref 2.2:![Screenshot 2025-01-27 175735](https://github.com/user-attachments/assets/01e883a7-866f-4423-a390-9ef5a3d02bb0)
+*Ref 2.3:![Screenshot 2025-01-27 183645](https://github.com/user-attachments/assets/dc6fce12-1836-4cb9-a352-f1dc4b572f6f)
+*Ref 2.4:![Screenshot 2025-01-27 184002](https://github.com/user-attachments/assets/40e35b30-2e62-489b-a4e7-ae145b67b56e)
+*Ref 2.5:![Screenshot 2025-01-27 184204](https://github.com/user-attachments/assets/777d1b04-7d48-459f-a34d-0c0dff49a183)
+
+3. 
