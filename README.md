@@ -46,7 +46,14 @@ To analyze and secure network infrastructure by leveraging advanced cybersecurit
 *Ref 2.4:![Screenshot 2025-01-27 184002](https://github.com/user-attachments/assets/40e35b30-2e62-489b-a4e7-ae145b67b56e)
 *Ref 2.5:![Screenshot 2025-01-27 184204](https://github.com/user-attachments/assets/777d1b04-7d48-459f-a34d-0c0dff49a183)
 
-3. Now that the analysis is done it is time to implement new IDS/IPS rules to help mitigate future network intrusions, so here I will be creating some sample rules within snort. First I navigated to the etc/snort/rules/local.rules directory and utlized the nano command to create a new snort rule.
+3. Now that the analysis is done it is time to implement new IDS/IPS rules to help mitigate future network intrusions, so here I will be creating some sample rules within snort. First I navigated to the etc/snort/rules/local.rules directory and utlized the nano command to create a new snort rule. I then tested out the new rule by utilizing the hping command from another terminal window and observed the response via snort.
 
-*Ref 3.1:![Screenshot 2025-01-28 123150](https://github.com/user-attachments/assets/3966a03e-c6ef-4201-a289-8ffa25b7e06d)
+*Ref 3.1:![Screenshot 2025-01-28 151954](https://github.com/user-attachments/assets/d1681c30-0d67-4eb0-90e8-0708b1eb7096)
+*Ref 3.2:![Screenshot 2025-01-28 152944](https://github.com/user-attachments/assets/638dd767-3936-4558-9c77-fa4e1abcbfca)
+*Ref 3.3:![Screenshot 2025-01-28 152825](https://github.com/user-attachments/assets/1a8f90eb-4d35-47c8-865c-a21a8d39c930)
+
+
+
+
+
 
