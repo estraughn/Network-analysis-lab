@@ -20,7 +20,6 @@ To analyze and secure network infrastructure by leveraging advanced cybersecurit
 - Wire Shark
 -  tcpdump
 -  Snort
--  Suricata
 -  Domaintools
 -  Cyberchef
 -  Virus Total
