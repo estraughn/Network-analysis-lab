@@ -63,6 +63,16 @@ To analyze and secure network infrastructure by leveraging advanced cybersecurit
 
 *Ref 3.3:![Screenshot 2025-01-28 152825](https://github.com/user-attachments/assets/1a8f90eb-4d35-47c8-865c-a21a8d39c930)
 
+4. Here are some post network analysis steps that can be taken to improve the organziations security posture in the future:
+
+- Update deny lists for malicious IPs, domains, and command-and-control (C2) servers
+- Implement network segmentation if not already applied to limit lateral movement
+- Automate blocking of suspicious traffic using threat intelligence integration
+- Implement secure logging & monitoring on all critical network devices
+- Update incident response playbooks based on newly observed network threats
+- Set up custom network traffic dashboards in SIEM for proactive monitoring
+- Schedule regular penetration testing and network audits to identify weak points
+
 
 
 
